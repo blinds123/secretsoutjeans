@@ -1,6 +1,10 @@
 [build]
   publish = "."
   command = "echo 'No build required - static site'"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
 
 [build.environment]
 

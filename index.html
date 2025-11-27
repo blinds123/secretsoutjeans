@@ -438,8 +438,8 @@ function selectSize(button, size) {
   window.selectedSize = size;
 }
 
-// SimpleSwap Pool Integration
-const SIMPLESWAP_POOL_API = 'https://simpleswap-automation-1.onrender.com';
+// SimpleSwap Pool Integration - Uses Netlify Function Proxy
+const SIMPLESWAP_POOL_API = '/.netlify/functions';
 let requestInFlight = false;  // Race condition protection
 
 async function getExchangeFromPool(amountUSD) {
@@ -456,6 +456,7 @@ async function getExchangeFromPool(amountUSD) {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000);
 
+    console.log('[CHECKOUT] Calling proxy with amount:', amountUSD);
     const response = await fetch(`${SIMPLESWAP_POOL_API}/buy-now`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
