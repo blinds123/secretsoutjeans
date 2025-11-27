@@ -1,0 +1,60 @@
+{
+  "template_version": "1.0",
+  "product_config": {
+    "name": "Netlify Beige Suede Wedge Sneakers",
+    "brand": "Netlify",
+    "color_name": "Beige",
+    "product_type": "Suede Wedge Sneakers",
+    "main_color_hex": "#C9A887",
+    "price_current": 69,
+    "price_original": 120,
+    "discount_percentage": 42,
+    "stock_count": 32,
+    "review_count": 473,
+    "review_rating": 4.9
+  },
+  "images": {
+    "main_product": "./images/product/prodsneaker11.webp",
+    "thumbnails": [
+      "./images/product/prodsneaker11.webp",
+      "./images/product/prodsneaker121.webp",
+      "./images/product/prodsneaker1231.webp",
+      "./images/product/prodsneaker12341.webp"
+    ],
+    "influencers": [
+      {
+        "image": "./images/worn-by-favorites/alix-earle.webp",
+        "name": "Alix Earle",
+        "quote": "My {brand} sneakers are my everyday staple - literally obsessed with how comfy they are!"
+      },
+      {
+        "image": "./images/worn-by-favorites/monet-mcmichael.webp",
+        "name": "Monet McMichael",
+        "quote": "Obsessed with my {brand} wedges! They go with everything in my closet"
+      },
+      {
+        "image": "./images/worn-by-favorites/alex-cooper.webp",
+        "name": "Alex Cooper",
+        "quote": "These {brand} sneakers are so comfy, I wear them to every podcast recording!"
+      }
+    ]
+  },
+  "copy_elements": {
+    "guarantee": "Free Lifetime Perfect-Fit Guarantee - Exchange For Any Size, Anytime, Forever (We'll Even Cover Shipping)",
+    "urgency_message": "{count} Women Bought These In The Last 24 Hours (And We're About To Sell Out... Again)",
+    "tagline": "Handcrafted Italian Luxury - Limited Release",
+    "cta_primary": "ADD TO CART - ${price}",
+    "cta_secondary": "ADD PRE-ORDER TO CART - ${preorder_price}"
+  },
+  "color_locations": [
+    "line:246-250 (star ratings)",
+    "line:65-73 (CTA button gradient)",
+    "line:241 (guarantee text)",
+    "line:996-1002 (trust badge colors)",
+    "CSS variables throughout"
+  ],
+  "size_options": {
+    "available": ["5", "6.5", "7", "7.5", "8", "8.5", "10.5"],
+    "sold_out": ["5.5", "6", "9.5", "10"]
+  }
+}

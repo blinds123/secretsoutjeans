@@ -1,0 +1,11 @@
+# Clean URL structure for products
+# Each product gets a short memorable path
+
+/auralo-blue  https://burgundyset.netlify.app/  200!
+/classic-black  https://black-boots.netlify.app/  200!
+/summer-white  https://white-sneakers.netlify.app/  200!
+/limited-red  https://red-heels.netlify.app/  200!
+
+# Or use product codes
+/ab-001  https://burgundyset.netlify.app/  200!
+/ab-002  https://next-product.netlify.app/  200!

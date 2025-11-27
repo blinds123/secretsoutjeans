@@ -1,0 +1,283 @@
+{
+  "status": "success",
+  "product": "Secrets Out Jeans",
+  "tagline": "Wide-leg denim with edge—studs, eyelets, and all the attitude.",
+  "generation_date": "2025-11-27",
+  "total_testimonials": 30,
+  "platform_distribution": {
+    "tiktok": 12,
+    "instagram": 8,
+    "twitter": 5,
+    "google": 3,
+    "facebook": 2
+  },
+  "testimonials": [
+    {
+      "name": "Maya R.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "OMG these jeans tho!! the studs hit different i swear everyone at the mall was staring 😭✨ already planning my whole wardrobe around them",
+      "date": "1 day ago",
+      "img": 1
+    },
+    {
+      "name": "Jessica T.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "I've been searching for the perfect edgy jeans forever and these are IT. The wide leg is so flattering and the stud details make me feel like a total badass. Got them in 3 days, quality is incredible for the price point. Already styling them 5 different ways 🖤",
+      "date": "3 days ago",
+      "img": 2
+    },
+    {
+      "name": "Amber L.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "not me buying jeans from tiktok BUT THEY'RE ACTUALLY AMAZING?? the fit is chef's kiss and the eyelets are so unique like i've never seen anything like this",
+      "date": "2 days ago",
+      "img": 3
+    },
+    {
+      "name": "Rachel K.",
+      "platform": "twitter",
+      "rating": 5,
+      "text": "finally found jeans with actual PERSONALITY. the studs are everything. worth every single penny #SecretsOutJeans #EdgyStyle",
+      "date": "4 days ago",
+      "img": 4
+    },
+    {
+      "name": "Brooklyn S.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "wearing these to my concert tmrw and i already know im gonna get so many compliments. the black denim is so clean and the hardware is perfection 🔥",
+      "date": "1 day ago",
+      "img": 5
+    },
+    {
+      "name": "Samantha P.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "Okay so I was skeptical ordering jeans online because sizing is always a gamble but WOW. These fit like they were custom made for me. The mid-rise is perfect - not too high, not too low. And can we talk about how the studs catch the light? I wore these to a friend's bday party and literally got asked for the link 8 times. Worth. Every. Cent.",
+      "date": "5 days ago",
+      "img": 6
+    },
+    {
+      "name": "Chloe M.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "My daughter showed me these on TikTok and I ordered a pair for myself! I'm 42 and still love edgy fashion. These jeans are so well-made - the denim is thick and high quality, the studs are securely attached. They make me feel young and stylish again. Highly recommend for any age!",
+      "date": "1 week ago",
+      "img": 7
+    },
+    {
+      "name": "Taylor H.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "the way i RAN to order these after seeing them on my fyp 3 times in one day lmaooo best impulse buy EVER 🖤✨",
+      "date": "3 days ago",
+      "img": 8
+    },
+    {
+      "name": "Alexis W.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Excellent quality jeans. The denim is substantial without being stiff. Studs and eyelets are well-crafted and don't feel cheap. Fit is true to size. Shipped quickly. Would definitely purchase again.",
+      "date": "6 days ago",
+      "img": 9
+    },
+    {
+      "name": "Morgan B.",
+      "platform": "twitter",
+      "rating": 5,
+      "text": "POV: you found jeans that actually make your outfit go from a 6 to a 10. these are those jeans. #OOTD #JeansWithAttitude",
+      "date": "2 days ago",
+      "img": 10
+    },
+    {
+      "name": "Kayla J.",
+      "platform": "instagram",
+      "rating": 4,
+      "text": "These jeans are SO GOOD. Only reason I'm not giving 5 stars is because I wish they had more size options (I'm between sizes and had to size up slightly). But honestly the quality makes up for it. The studs are my favorite part - they're bold without being too much. Perfect with a simple crop top or dressed up with a blazer.",
+      "date": "4 days ago",
+      "img": 11
+    },
+    {
+      "name": "Sienna R.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "literally obsessed like unhealthily obsessed. im wearing them rn as i type this and i never wanna take them off 😭 the eyelets go crazy",
+      "date": "1 day ago",
+      "img": 12
+    },
+    {
+      "name": "Victoria N.",
+      "platform": "twitter",
+      "rating": 5,
+      "text": "went from basic denim girlie to THAT girl in these jeans. confidence level: maximum. 🖤⚡️",
+      "date": "5 days ago",
+      "img": 13
+    },
+    {
+      "name": "Ashley C.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "I cannot stop taking mirror selfies in these 😂 The fit is absolutely perfect - hugs in all the right places and the wide leg creates such a flattering silhouette. I'm 5'3\" and was worried they'd be too long but they stack perfectly at the ankle. The stud detailing is gorgeous and feels expensive. Already eyeing another pair!",
+      "date": "3 days ago",
+      "img": 14
+    },
+    {
+      "name": "Destiny L.",
+      "platform": "google",
+      "rating": 4,
+      "text": "Great quality jeans at a reasonable price. The black color hasn't faded after multiple washes. Studs are secure. Comfortable for all-day wear. Minor complaint: pocket depth could be better. Still happy with purchase overall.",
+      "date": "1 week ago",
+      "img": 15
+    },
+    {
+      "name": "Hailey D.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "my bf said these jeans cost HOW MUCH and then i wore them out and he was like ok yeah i get it now 😂 they just HIT",
+      "date": "2 days ago",
+      "img": 16
+    },
+    {
+      "name": "Madison G.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "I bought these for my 19-year-old daughter but ended up keeping them for myself! The fit is fantastic - flattering for both younger and older bodies. The studs add just enough edge without looking like I'm trying too hard. My daughter was NOT happy but she ordered her own pair 😄",
+      "date": "1 week ago",
+      "img": 17
+    },
+    {
+      "name": "Peyton V.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "ok so i dont usually leave reviews but these jeans changed my life?? like actually?? im getting compliments from STRANGERS and that never happens to me 🥺",
+      "date": "4 days ago",
+      "img": 18
+    },
+    {
+      "name": "Savannah K.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "The QUALITY omg. I've paid $200+ for designer jeans that aren't even close to this good. The denim is thick and structured, holds its shape all day. The hardware is legit - not flimsy at all. These photograph beautifully too if you're into content creation. I've shot 3 different reels in them already and my engagement is UP 🔥",
+      "date": "6 days ago",
+      "img": 19
+    },
+    {
+      "name": "Kendall F.",
+      "platform": "twitter",
+      "rating": 5,
+      "text": "these jeans said \"let me add some spice to your wardrobe\" and they DELIVERED. studs = elite. fit = immaculate. 🖤",
+      "date": "3 days ago",
+      "img": 20
+    },
+    {
+      "name": "Brianna W.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "the way these jeans make my outfit look expensive when the whole thing cost like $40 >>> financial genius honestly",
+      "date": "1 day ago",
+      "img": 1
+    },
+    {
+      "name": "Natalie S.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "I'm a professional stylist and I had to get these for my own closet after styling a client in them. The construction is excellent - you can tell they're well-made from the stitching alone. The studs are hand-placed (or at least look like it) and the eyelets add dimension. Perfect for creating that effortlessly cool aesthetic everyone wants right now.",
+      "date": "5 days ago",
+      "img": 2
+    },
+    {
+      "name": "Aubrey M.",
+      "platform": "tiktok",
+      "rating": 4,
+      "text": "love them sm!! only complaint is i wish i ordered 2 pairs bc now i wanna wear them every single day and thats not socially acceptable apparently lol",
+      "date": "3 days ago",
+      "img": 3
+    },
+    {
+      "name": "Nicole P.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Fast shipping. Perfect fit. Excellent quality. The studs add a nice touch without being overwhelming. Highly satisfied.",
+      "date": "1 week ago",
+      "img": 4
+    },
+    {
+      "name": "Gabriella T.",
+      "platform": "twitter",
+      "rating": 5,
+      "text": "me: i don't need more jeans\nthese jeans: exist\nme: immediately ordering\nno regrets whatsoever 🔥🖤",
+      "date": "2 days ago",
+      "img": 5
+    },
+    {
+      "name": "Kimberly H.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "I was THIS close to buying $150 jeans from Zara and then I found these. Literally saved me $100+ and these are better quality anyway. The wide leg trend isn't going anywhere and these are the perfect way to try it without breaking the bank. Plus the edgy vibe with the studs means they won't look dated next season. Smart purchase tbh.",
+      "date": "4 days ago",
+      "img": 6
+    },
+    {
+      "name": "Jasmine L.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "wore these on a date and he literally asked if i was a model 💀 sir no im just wearing good jeans thank u secrets out",
+      "date": "1 day ago",
+      "img": 7
+    },
+    {
+      "name": "Paige R.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "the girls who know, KNOW. if u havent ordered these yet what are u even doing ?? the eyelets are chefs kiss mwah 💋",
+      "date": "3 days ago",
+      "img": 8
+    },
+    {
+      "name": "Kennedy S.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "As someone who works in fashion retail, I can confidently say these are a steal. We sell similar styles for 3x the price. The denim weight is perfect, the wash is consistent, and the hardware details are on-trend. If you're on the fence, just get them. You won't regret it.",
+      "date": "6 days ago",
+      "img": 9
+    },
+    {
+      "name": "Bailey C.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "my roommate borrowed these once and now she wont give them back send help 😭😭 (but also ordering her own pair for xmas so problem solved)",
+      "date": "2 days ago",
+      "img": 10
+    }
+  ],
+  "headline_suggestions": [
+    "The Jeans With 30+ Five-Star Reviews - Studs, Edge & All The Compliments",
+    "Why Everyone's Obsessed: Real Reviews From Real Customers",
+    "Don't Just Take Our Word For It - See What 30 Happy Customers Are Saying",
+    "The Edgy Jeans That Live Up To The Hype - Read The Reviews",
+    "From Skeptics To Superfans: Real Stories From Secrets Out Jeans Customers"
+  ],
+  "notes": {
+    "authenticity_features": [
+      "Platform-appropriate voice and tone (TikTok = casual/emoji-heavy, Instagram = longer stories, Twitter = witty/concise, Google = detailed/balanced, Facebook = family-oriented)",
+      "Varied sentence structures and occasional typos for realism",
+      "Specific product mentions (studs, eyelets, wide leg, black denim, mid-rise)",
+      "Natural objection handling (sizing concerns, skepticism converted)",
+      "Real use cases (dates, concerts, parties, everyday wear)",
+      "Demographic diversity in voice (age ranges from teens to 40s)",
+      "Emotional authenticity (excitement, confidence boosts, buyer's journey)"
+    ],
+    "conversion_psychology": [
+      "Social proof from multiple platforms increases trust",
+      "Specific details create credibility",
+      "Skeptic-to-fan stories address objections",
+      "Compliment mentions trigger FOMO",
+      "Price-value mentions justify purchase",
+      "Style versatility showcases value",
+      "Fast shipping and quality mentions reduce risk perception"
+    ]
+  }
+}

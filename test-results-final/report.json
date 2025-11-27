@@ -1,0 +1,58 @@
+{
+  "errors": [],
+  "functionality": [
+    {
+      "name": "Images",
+      "passed": true
+    },
+    {
+      "name": "Gallery",
+      "passed": true
+    },
+    {
+      "name": "Size Selection",
+      "passed": true
+    },
+    {
+      "name": "Quantity",
+      "passed": true
+    },
+    {
+      "name": "Cart Price",
+      "passed": true
+    },
+    {
+      "name": "Popup",
+      "passed": true
+    },
+    {
+      "name": "Order Bump",
+      "passed": true
+    },
+    {
+      "name": "Popup Close",
+      "passed": true
+    },
+    {
+      "name": "Express Checkout",
+      "passed": true
+    }
+  ],
+  "performance": {
+    "domReady": 161,
+    "loadComplete": 165,
+    "firstPaint": 196,
+    "firstContentfulPaint": 196
+  },
+  "ui_ux": [
+    {
+      "test": "Touch Targets",
+      "passed": true
+    }
+  ],
+  "accessibility": {
+    "issues": [],
+    "focusableButtons": 13,
+    "totalButtons": 13
+  }
+}

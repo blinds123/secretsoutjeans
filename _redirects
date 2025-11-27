@@ -1,0 +1,14 @@
+# Product routing for auralo.store
+# HOW TO ADD NEW PRODUCTS:
+# 1. Deploy your new product to Netlify (gets its own .netlify.app URL)
+# 2. Add two lines below for your product
+# 3. Run: netlify deploy --prod
+
+# EXAMPLE - Uncomment and modify when ready:
+# /black-boots/*  https://your-black-boots.netlify.app/:splat  200!
+# /black-boots    https://your-black-boots.netlify.app/  200!
+
+# MORE EXAMPLES:
+# /summer-sale/*  https://auralo-summer.netlify.app/:splat  200!
+# /limited-edition/*  https://auralo-limited.netlify.app/:splat  200!
+# /clearance/*  https://auralo-clearance.netlify.app/:splat  200!

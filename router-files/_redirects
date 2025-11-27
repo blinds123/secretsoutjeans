@@ -1,0 +1,14 @@
+# Main Router Configuration for auralo.store
+# Deploy this to frabjous-daffodil-f51c2e
+
+# Baby Blue Suede Sneakers
+/baby-blue/*  https://burgundyset.netlify.app/:splat  200!
+/baby-blue    https://burgundyset.netlify.app/  200!
+
+# Homepage shows baby blue sneakers (for now)
+/*  https://burgundyset.netlify.app/:splat  200!
+
+# ===== ADD NEW PRODUCTS BELOW =====
+# Example format:
+# /product-url/*  https://your-project.netlify.app/:splat  200!
+# /product-url    https://your-project.netlify.app/  200!

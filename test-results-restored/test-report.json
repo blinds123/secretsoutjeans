@@ -1,0 +1,64 @@
+{
+  "errors": [],
+  "sections": [
+    {
+      "name": "Product Gallery",
+      "exists": true
+    },
+    {
+      "name": "Product Info",
+      "exists": true
+    },
+    {
+      "name": "Featured Fabric",
+      "exists": true
+    },
+    {
+      "name": "Product Details Dropdowns",
+      "exists": true
+    },
+    {
+      "name": "Worn By Favorites",
+      "exists": true
+    },
+    {
+      "name": "Reviews Section",
+      "exists": true
+    },
+    {
+      "name": "Testimonials Section",
+      "exists": true
+    },
+    {
+      "name": "Sticky Footer",
+      "exists": true
+    },
+    {
+      "name": "Checkout Modal",
+      "exists": true
+    }
+  ],
+  "functionality": [],
+  "flow": [
+    {
+      "step": "Size Selection",
+      "passed": true
+    },
+    {
+      "step": "Modal Opens",
+      "passed": true
+    },
+    {
+      "step": "Order Bump",
+      "passed": true
+    },
+    {
+      "step": "SimpleSwap Button",
+      "passed": true
+    }
+  ],
+  "simpleswap": {
+    "walletAddress": "\n                    0xE5173e7c3089bD89cd1341b637b8e1951745ED5C\n                ",
+    "urlCorrect": true
+  }
+}

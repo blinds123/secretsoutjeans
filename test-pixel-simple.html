@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TikTok Pixel Test Page</title>
+
+<!-- Copy of TikTok Pixel from index.html -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('D3CVHNBC77U2RE92M7O0');
+  ttq.page();
+
+  // Track ViewContent event when page loads
+  ttq.track('ViewContent', {
+    content_id: 'auralo-baby-blue-sneakers',
+    content_type: 'product',
+    content_name: 'Auralo Baby Blue Suede Sneakers',
+    price: 69,
+    currency: 'USD',
+    value: 69
+  });
+}(window, document, 'ttq');
+</script>
+
+<style>
+body {
+  font-family: -apple-system, sans-serif;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background: #357abd;
+}
+.log {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.status {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.success {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+</style>
+</head>
+<body>
+
+<h1>TikTok Pixel Test - D3CVHNBC77U2RE92M7O0</h1>
+
+<div id="pixelStatus" class="status"></div>
+
+<h2>Test Events:</h2>
+
+<button onclick="testAddToCart()">Test AddToCart Event</button>
+<button onclick="testInitiateCheckout()">Test InitiateCheckout Event</button>
+<button onclick="testPurchase()">Test Purchase Event (Redirects to SimpleSwap)</button>
+
+<h2>Event Log:</h2>
+<div id="log" class="log">Waiting for events...</div>
+
+<script>
+// Event logging
+const eventLog = [];
+const logDiv = document.getElementById('log');
+
+function addToLog(message) {
+  const timestamp = new Date().toLocaleTimeString();
+  const logEntry = `[${timestamp}] ${message}`;
+  eventLog.push(logEntry);
+  logDiv.textContent = eventLog.join('\n');
+  console.log(message);
+}
+
+// Check pixel status
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const pixelStatus = document.getElementById('pixelStatus');
+    if (typeof ttq !== 'undefined') {
+      pixelStatus.className = 'status success';
+      pixelStatus.innerHTML = '✅ TikTok Pixel Loaded Successfully<br>Pixel ID: D3CVHNBC77U2RE92M7O0';
+      addToLog('✅ TikTok Pixel initialized');
+      addToLog('✅ ViewContent event should have fired on page load');
+    } else {
+      pixelStatus.className = 'status error';
+      pixelStatus.innerHTML = '❌ TikTok Pixel Failed to Load';
+      addToLog('❌ TikTok Pixel not found');
+    }
+  }, 1000);
+});
+
+// Intercept ttq.track calls
+if (typeof ttq !== 'undefined') {
+  const originalTrack = ttq.track;
+  ttq.track = function(eventName, params) {
+    addToLog(`🎯 Event Fired: ${eventName}`);
+    if (params) {
+      addToLog(`   Parameters: ${JSON.stringify(params, null, 2)}`);
+    }
+    return originalTrack.apply(this, arguments);
+  };
+}
+
+// Test functions matching the actual implementation
+function testAddToCart() {
+  if (typeof ttq !== 'undefined') {
+    const price = 69;
+    addToLog('🛒 Triggering AddToCart event...');
+    ttq.track('AddToCart', {
+      content_id: 'auralo-baby-blue-sneakers',
+      content_type: 'product',
+      content_name: 'Auralo Baby Blue Suede Sneakers',
+      price: price,
+      quantity: 1,
+      currency: 'USD',
+      value: price
+    });
+    addToLog('✅ AddToCart event sent to TikTok');
+  } else {
+    addToLog('❌ TikTok Pixel not available');
+  }
+}
+
+function testInitiateCheckout() {
+  if (typeof ttq !== 'undefined') {
+    const basePrice = 69;
+    addToLog('📝 Triggering InitiateCheckout event...');
+    ttq.track('InitiateCheckout', {
+      content_id: 'auralo-baby-blue-sneakers',
+      content_type: 'product',
+      content_name: 'Auralo Baby Blue Suede Sneakers',
+      price: basePrice,
+      quantity: 1,
+      currency: 'USD',
+      value: basePrice
+    });
+    addToLog('✅ InitiateCheckout event sent to TikTok');
+  } else {
+    addToLog('❌ TikTok Pixel not available');
+  }
+}
+
+function testPurchase() {
+  if (typeof ttq !== 'undefined') {
+    const totalAmount = 79; // Simulating with order bump
+    addToLog('💰 Triggering Purchase event...');
+    ttq.track('Purchase', {
+      content_id: 'auralo-baby-blue-sneakers',
+      content_type: 'product',
+      content_name: 'Auralo Baby Blue Suede Sneakers',
+      price: totalAmount,
+      quantity: 1,
+      currency: 'USD',
+      value: totalAmount
+    });
+    addToLog('✅ Purchase event sent to TikTok');
+
+    // Simulate redirect
+    addToLog('🔄 Redirecting to SimpleSwap in 2 seconds...');
+    setTimeout(() => {
+      const redirectUrl = 'https://simpleswap.io/exchange?from=usd-usd&to=pol-matic&amount=' + totalAmount;
+      addToLog(`📍 Would redirect to: ${redirectUrl}`);
+      if (confirm('Test complete! Redirect to SimpleSwap?')) {
+        window.location.href = redirectUrl;
+      }
+    }, 2000);
+  } else {
+    addToLog('❌ TikTok Pixel not available');
+  }
+}
+
+// Monitor network requests
+if (window.performance && window.performance.getEntriesByType) {
+  setInterval(() => {
+    const entries = performance.getEntriesByType('resource');
+    const tiktokRequests = entries.filter(e => e.name.includes('tiktok.com'));
+    if (tiktokRequests.length > 0 && eventLog.filter(e => e.includes('Network')).length === 0) {
+      addToLog(`📡 Network: ${tiktokRequests.length} TikTok requests detected`);
+    }
+  }, 2000);
+}
+</script>
+
+</body>
+</html>

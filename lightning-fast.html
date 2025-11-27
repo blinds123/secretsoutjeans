@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Auralo Baby Blue Suede Sneakers - Limited Edition</title>
+<meta name="description" content="Premium Italian handcrafted baby blue suede sneakers. Limited edition luxury footwear with OrthoLite® comfort. 30-day guarantee.">
+<link rel="preconnect" href="https://rad-kleicha-2eb708.netlify.app">
+<link rel="dns-prefetch" href="https://rad-kleicha-2eb708.netlify.app">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1a1a1a;line-height:1.6}
+.announcement{background:#000;color:#fff;text-align:center;padding:12px;font-size:14px}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+.product-hero{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding:60px 20px;align-items:start}
+.gallery{position:sticky;top:20px}
+.main-img{width:100%;height:auto;border-radius:12px}
+.thumbs{display:flex;gap:10px;margin-top:15px}
+.thumb{width:80px;height:80px;border-radius:8px;cursor:pointer;border:2px solid transparent;transition:0.2s}
+.thumb.active{border-color:#000}
+.product-info h1{font-size:40px;font-weight:700;margin-bottom:10px}
+.tagline{color:#666;font-size:18px;margin-bottom:20px}
+.price-box{display:flex;align-items:baseline;gap:15px;margin-bottom:30px}
+.price{font-size:36px;font-weight:700}
+.old-price{font-size:24px;color:#999;text-decoration:line-through}
+.badge{background:#ff4444;color:#fff;padding:4px 12px;border-radius:20px;font-size:14px;font-weight:600}
+.features{display:flex;flex-direction:column;gap:10px;margin-bottom:30px}
+.feature{display:flex;align-items:center;gap:10px;color:#333}
+.guarantee{background:#f8f9fa;border-left:3px solid #28a745;padding:15px;border-radius:8px;margin-bottom:30px}
+.sizes{margin-bottom:30px}
+.size-label{font-weight:600;margin-bottom:15px}
+.size-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(60px,1fr));gap:10px}
+.size-btn{padding:12px;border:2px solid #ddd;background:#fff;border-radius:8px;cursor:pointer;transition:0.2s;font-weight:600}
+.size-btn:hover:not(:disabled){border-color:#000;transform:scale(1.05)}
+.size-btn.selected{background:#000;color:#fff;border-color:#000}
+.size-btn:disabled{opacity:0.5;cursor:not-allowed;position:relative}
+.size-btn:disabled::after{content:'SOLD OUT';position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:9px;color:#ff4444;white-space:nowrap}
+.cta-btn{width:100%;padding:18px;font-size:18px;font-weight:700;border-radius:8px;border:none;cursor:pointer;transition:0.3s;margin-bottom:15px}
+.cta-primary{background:#000;color:#fff}
+.cta-primary:hover{background:#333;transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+.cta-secondary{background:#fff;color:#000;border:2px solid #000}
+.cta-secondary:hover{background:#f8f9fa}
+.btn-subtitle{font-size:12px;font-weight:400;opacity:0.9;margin-top:4px}
+.loading{opacity:0;transition:opacity 0.3s}
+.loaded{opacity:1}
+.section{padding:60px 20px}
+.section-title{font-size:32px;font-weight:700;text-align:center;margin-bottom:40px}
+@media(max-width:768px){
+.product-hero{grid-template-columns:1fr;gap:30px;padding:30px 20px}
+.gallery{position:static}
+.product-info h1{font-size:28px}
+.price{font-size:28px}
+}
+</style>
+</head>
+<body>
+<div class="announcement">🔥 EXCLUSIVE LAUNCH - BABY BLUE SUEDE • FREE WORLDWIDE SHIPPING</div>
+
+<div class="container">
+<div class="product-hero">
+<div class="gallery">
+<img class="main-img" id="mainImg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Crect width='600' height='600' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Auralo Baby Blue Suede Sneakers">
+<div class="thumbs" id="thumbs"></div>
+</div>
+
+<div class="product-info">
+<h1>Auralo Baby Blue Suede Sneakers</h1>
+<p class="tagline">Handcrafted Italian Luxury - Limited Release</p>
+
+<div class="price-box">
+<span class="price">$69</span>
+<span class="old-price">$120</span>
+<span class="badge">42% OFF</span>
+</div>
+
+<div class="features">
+<div class="feature">✓ Handcrafted in Italy</div>
+<div class="feature">⚡ Ships Within 24 Hours</div>
+<div class="feature">⭐ Premium Suede Material</div>
+</div>
+
+<div class="guarantee">
+<strong>🛡️ 100% Authentic Guarantee + Free Returns</strong><br>
+Not satisfied? Return within 30 days for a full refund. No questions asked!
+</div>
+
+<div class="sizes">
+<div class="size-label">Select Size:</div>
+<div class="size-grid">
+<button class="size-btn" disabled>33</button>
+<button class="size-btn" disabled>34</button>
+<button class="size-btn" disabled>35</button>
+<button class="size-btn">36</button>
+<button class="size-btn">37</button>
+<button class="size-btn">38</button>
+<button class="size-btn">39</button>
+<button class="size-btn">40</button>
+<button class="size-btn">41</button>
+<button class="size-btn" disabled>42</button>
+<button class="size-btn" disabled>43</button>
+<button class="size-btn">44</button>
+</div>
+</div>
+
+<button class="cta-btn cta-primary">
+ADD TO CART - $69
+<div class="btn-subtitle">In-Stock: Ready to Ship</div>
+</button>
+
+<button class="cta-btn cta-secondary">
+ADD PRE-ORDER TO CART - $29
+<div class="btn-subtitle">Wait & Save: Estimated to Ship Oct 12</div>
+</button>
+</div>
+</div>
+</div>
+
+<div id="lazyContent"></div>
+
+<script>
+// Critical image loading
+const imgs = [
+'./images/product/webp_Generated_Image_September_28,_2025_-_11_12AM.webp',
+'./images/product/webp_Generated_Image_September_28,_2025_-_11_13AM_(1).webp',
+'./images/product/webp_Generated_Image_September_28,_2025_-_11_13AM.webp',
+'./images/product/webp_Generated_Image_September_28,_2025_-_11_14AM.webp'
+];
+
+// Load main image immediately
+const mainImg = document.getElementById('mainImg');
+const img = new Image();
+img.onload = () => {
+mainImg.src = img.src;
+mainImg.classList.add('loaded');
+};
+img.src = imgs[0];
+
+// Create thumbnails
+const thumbsContainer = document.getElementById('thumbs');
+imgs.forEach((src, i) => {
+const thumb = document.createElement('img');
+thumb.className = 'thumb' + (i === 0 ? ' active' : '');
+thumb.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="80" height="80"%3E%3Crect width="80" height="80" fill="%23f0f0f0"/%3E%3C/svg%3E';
+thumb.dataset.src = src;
+thumb.dataset.index = i;
+thumb.alt = `Product ${i + 1}`;
+thumbsContainer.appendChild(thumb);
+
+// Load thumbnail
+if (i === 0) {
+thumb.src = src;
+} else {
+setTimeout(() => {
+thumb.src = src;
+}, 100 * i);
+}
+});
+
+// Gallery interaction
+thumbsContainer.addEventListener('click', (e) => {
+if (e.target.classList.contains('thumb')) {
+document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+e.target.classList.add('active');
+mainImg.src = e.target.dataset.src;
+}
+});
+
+// Size selection
+document.querySelectorAll('.size-btn:not(:disabled)').forEach(btn => {
+btn.addEventListener('click', function() {
+document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
+this.classList.add('selected');
+});
+});
+
+// Lazy load rest of content after 1 second
+setTimeout(() => {
+const lazyHTML = `
+<div class="section">
+<h2 class="section-title">Product Details</h2>
+<div class="container" style="max-width:800px">
+<details style="margin-bottom:20px;border:1px solid #ddd;border-radius:8px;padding:20px">
+<summary style="cursor:pointer;font-weight:600;font-size:18px">Description</summary>
+<p style="margin-top:15px;color:#666;line-height:1.8">
+Introducing the Auralo Baby Blue Suede Sneakers - where Italian craftsmanship meets contemporary street style.
+Handcrafted in Italy's finest ateliers using premium baby blue suede sourced from Tuscany, each pair undergoes
+47 individual quality checks. Features include a cushioned OrthoLite® insole for all-day comfort, durable Margom sole,
+and signature gold-foil stamped serial number.
+</p>
+</details>
+<details style="margin-bottom:20px;border:1px solid #ddd;border-radius:8px;padding:20px">
+<summary style="cursor:pointer;font-weight:600;font-size:18px">Materials</summary>
+<ul style="margin-top:15px;color:#666;line-height:1.8;list-style:none">
+<li>• Upper: 100% Premium Italian Suede (Baby Blue)</li>
+<li>• Lining: Soft Calfskin Leather</li>
+<li>• Sole: Margom Rubber (Made in Italy)</li>
+<li>• Insole: OrthoLite® Cushioned Technology</li>
+<li>• Construction: Blake Stitch</li>
+<li>• Hardware: Brushed Gold Eyelets</li>
+<li>• Laces: Waxed Cotton (Extra Pair Included)</li>
+<li>• Handcrafted in Milan, Italy</li>
+</ul>
+</details>
+<details style="margin-bottom:20px;border:1px solid #ddd;border-radius:8px;padding:20px">
+<summary style="cursor:pointer;font-weight:600;font-size:18px">Size & Fit</summary>
+<div style="margin-top:15px;color:#666;line-height:1.8">
+<strong>Fit:</strong> True to EU Size, Regular Width<br><br>
+<strong>EU to US Size Conversion:</strong><br>
+• EU 36 = US Women's 6 / Men's 4<br>
+• EU 37 = US Women's 7 / Men's 5<br>
+• EU 38 = US Women's 8 / Men's 6<br>
+• EU 39 = US Women's 9 / Men's 7<br>
+• EU 40 = US Women's 10 / Men's 8<br>
+• EU 41 = US Women's 11 / Men's 9<br>
+• EU 44 = US Women's 13 / Men's 11<br><br>
+<em>Model wears EU 39 (US 7 Men's)</em> 💙<br><br>
+<strong>Perfect Fit Guarantee:</strong> Free returns within 30 days if not completely satisfied.
+</div>
+</details>
+</div>
+</div>
+
+<div class="section" style="background:#f8f9fa">
+<h2 class="section-title">Reviews</h2>
+<div class="container" style="max-width:800px">
+<div id="reviews"></div>
+<button onclick="loadReviews()" style="display:block;margin:20px auto;padding:12px 30px;background:#000;color:#fff;border:none;border-radius:8px;cursor:pointer;font-weight:600">Load More Reviews</button>
+</div>
+</div>`;
+document.getElementById('lazyContent').innerHTML = lazyHTML;
+
+// Load first 3 reviews
+loadInitialReviews();
+}, 1000);
+
+function loadInitialReviews() {
+const reviews = [
+{name: 'sofia k.', text: 'GIRLLLLL these baby blue sneakers are IT!!! worth every pennyyyy fr fr', rating: 5},
+{name: 'maya', text: 'ok but why do these auralo sneakers eat up my isabel marants...', rating: 5},
+{name: 'jess r', text: 'loveeee my baby blues!! the suede is soooo soft', rating: 4}
+];
+
+const container = document.getElementById('reviews');
+if (container) {
+container.innerHTML = reviews.map(r => `
+<div style="padding:20px;background:#fff;border-radius:8px;margin-bottom:15px">
+<strong>${r.name}</strong> ${'⭐'.repeat(r.rating)}<br>
+<p style="margin-top:10px;color:#666">${r.text}</p>
+</div>
+`).join('');
+}
+}
+
+function loadReviews() {
+// Placeholder for loading more reviews
+alert('Loading more reviews...');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Main Router Configuration for auralo.store
+# This file should be deployed to frabjous-daffodil-f51c2e (the main domain holder)
+
+# Baby Blue Suede Sneakers - First Product
+/baby-blue/*  https://burgundyset.netlify.app/:splat  200!
+/baby-blue    https://burgundyset.netlify.app/  200!
+
+# Homepage shows baby blue sneakers for now
+/*  https://burgundyset.netlify.app/:splat  200!
+
+# Future Products - Add here as you create them:
+# /black-boots/*  https://black-boots-project.netlify.app/:splat  200!
+# /black-boots    https://black-boots-project.netlify.app/  200!
+
+# /white-sneakers/*  https://white-project.netlify.app/:splat  200!
+# /white-sneakers    https://white-project.netlify.app/  200!
+
+# /summer-sale/*  https://summer-sale.netlify.app/:splat  200!
+# /summer-sale    https://summer-sale.netlify.app/  200!
