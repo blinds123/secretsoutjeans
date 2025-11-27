@@ -512,7 +512,12 @@ function handleAddToCart(type) {
     return;
   }
 
-  showOrderBumpPopup(type);
+  // $59 Ships Today goes directly to checkout, $19 Pre-order shows order bump popup
+  if (type === 'primary') {
+    processOrder(59);
+  } else {
+    showOrderBumpPopup(type);
+  }
 }
 
 function showOrderBumpPopup(type) {
