@@ -1,0 +1,237 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]: THE JEANS WITH EDGE - STUDS, EYELETS & ATTITUDE - LIMITED STOCK
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img "Secrets Out Jeans - Black Denim" [ref=e7]
+      - generic [ref=e8]:
+        - img "Product view 1" [ref=e9] [cursor=pointer]
+        - img "Product view 2" [ref=e10] [cursor=pointer]
+        - img "Product view 3" [ref=e11] [cursor=pointer]
+        - img "Product view 4" [ref=e12] [cursor=pointer]
+    - generic [ref=e13]:
+      - heading "The Edgy Wide-Leg Jeans With Studs & Attitude" [level=1] [ref=e14]
+      - paragraph [ref=e15]: The denim with edge—studs, eyelets, and all the attitude (everyone will ask where you got them)
+      - generic [ref=e16]:
+        - generic [ref=e17]: $59
+        - generic [ref=e18]: $89
+        - generic [ref=e19]: 34% OFF
+      - generic [ref=e22]: 23 people viewing right now
+      - generic [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e26]:
+          - text: Only
+          - strong [ref=e27]: "34"
+          - text: left at this price!
+      - generic [ref=e28]: 523 pairs sold this week
+      - 'button "GET MINE NOW - $59 In Stock: Ships Same-Day (Only 34 Left)" [ref=e29] [cursor=pointer]':
+        - text: GET MINE NOW - $59
+        - generic [ref=e30]: "In Stock: Ships Same-Day (Only 34 Left)"
+      - 'button "PRE-ORDER FOR 68% OFF - $19 Worth the wait: Ships in 2-3 weeks (save $40)" [ref=e31] [cursor=pointer]':
+        - text: PRE-ORDER FOR 68% OFF - $19
+        - generic [ref=e32]: "Worth the wait: Ships in 2-3 weeks (save $40)"
+      - generic [ref=e33]:
+        - generic [ref=e34]: 30-Day Money-Back Guarantee
+        - generic [ref=e35]: Don't love them? Return for free. No questions asked.
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - generic [ref=e41]:
+            - strong [ref=e42]: 10,000+
+            - generic [ref=e43]: Happy Customers
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - generic [ref=e48]:
+            - strong [ref=e49]: 4.9/5
+            - generic [ref=e50]: Average Rating
+        - generic [ref=e51]:
+          - img [ref=e53]
+          - generic [ref=e55]:
+            - strong [ref=e56]: 30-Day
+            - generic [ref=e57]: Money Back
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - img [ref=e60]
+          - text: Free Returns
+        - generic [ref=e62]:
+          - img [ref=e63]
+          - text: Fast Shipping
+        - generic [ref=e65]:
+          - img [ref=e66]
+          - text: Secure Checkout
+  - generic [ref=e68]:
+    - generic [ref=e69]:
+      - heading "Select Your Size:" [level=3] [ref=e70]
+      - generic [ref=e71]:
+        - button "XXS" [ref=e72] [cursor=pointer]
+        - button "XS" [ref=e73] [cursor=pointer]
+        - button "S" [ref=e74] [cursor=pointer]
+        - button "M" [ref=e75] [cursor=pointer]
+        - button "L" [ref=e76] [cursor=pointer]
+        - button "XL Sold Out" [disabled] [ref=e77]:
+          - text: XL
+          - generic [ref=e78]: Sold Out
+        - button "XXL Sold Out" [disabled] [ref=e79]:
+          - text: XXL
+          - generic [ref=e80]: Sold Out
+      - generic [ref=e81]:
+        - strong [ref=e82]: Free Returns + Fast Shipping
+        - text: Not satisfied? Return within 30 days for a full refund.
+    - generic [ref=e83]:
+      - heading "The Details" [level=2] [ref=e84]
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Fit & Style" [level=3] [ref=e87]
+          - list [ref=e88]:
+            - listitem [ref=e89]: Wide-leg denim silhouette
+            - listitem [ref=e90]: Mid-rise fit with button fly
+            - listitem [ref=e91]: Distinctive studs & eyelets
+            - listitem [ref=e92]: Tailored, edgy aesthetic
+        - generic [ref=e93]:
+          - heading "Fabric & Care" [level=3] [ref=e94]
+          - list [ref=e95]:
+            - listitem [ref=e96]: Premium black denim
+            - listitem [ref=e97]: Durable metal hardware
+            - listitem [ref=e98]: Machine wash cold
+            - listitem [ref=e99]: Tumble dry low or hang
+        - generic [ref=e100]:
+          - heading "Styling Tips" [level=3] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103]: Pair with crop top for edge
+            - listitem [ref=e104]: Style with boots for concerts
+            - listitem [ref=e105]: Leather jacket for night out
+            - listitem [ref=e106]: White tee for casual cool
+    - generic [ref=e107]:
+      - heading "Why Everyone's Obsessed" [level=2] [ref=e108]
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - heading "Edgy Hardware" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Distinctive studs and eyelets that make you stand out
+        - generic [ref=e113]:
+          - heading "Premium Denim" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Thick black denim that holds its shape and looks expensive
+        - generic [ref=e116]:
+          - heading "Versatile Edge" [level=3] [ref=e117]
+          - paragraph [ref=e118]: Dress up or down - rock them anywhere with attitude
+    - generic [ref=e120]:
+      - heading "Real Reviews" [level=2] [ref=e121]
+      - paragraph [ref=e122]: See what people are saying about these jeans
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - img "Maya R." [ref=e126]
+            - generic [ref=e127]:
+              - generic [ref=e128]: Maya R.
+              - generic [ref=e129]:
+                - img [ref=e130]
+                - generic [ref=e132]: Verified on Tiktok
+            - generic [ref=e133]: ★★★★★
+          - paragraph [ref=e134]: OMG these jeans tho!! the studs hit different i swear everyone at the mall was staring 😭✨ already planning my whole wardrobe around them
+          - generic [ref=e135]: 1 day ago
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img "Jessica T." [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Jessica T.
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: Verified on Instagram
+            - generic [ref=e145]: ★★★★★
+          - paragraph [ref=e146]: I've been searching for the perfect edgy jeans forever and these are IT. The wide leg is so flattering and the stud details make me feel like a total badass. Got them in 3 days, quality is incredible for the price point. Already styling them 5 different ways 🖤
+          - generic [ref=e147]: 3 days ago
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - img "Amber L." [ref=e150]
+            - generic [ref=e151]:
+              - generic [ref=e152]: Amber L.
+              - generic [ref=e153]:
+                - img [ref=e154]
+                - generic [ref=e156]: Verified on Tiktok
+            - generic [ref=e157]: ★★★★★
+          - paragraph [ref=e158]: not me buying jeans from tiktok BUT THEY'RE ACTUALLY AMAZING?? the fit is chef's kiss and the eyelets are so unique like i've never seen anything like this
+          - generic [ref=e159]: 2 days ago
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - img "Rachel K." [ref=e162]
+            - generic [ref=e163]:
+              - generic [ref=e164]: Rachel K.
+              - generic [ref=e165]:
+                - text: undefined
+                - generic [ref=e166]: Verified on Twitter
+            - generic [ref=e167]: ★★★★★
+          - paragraph [ref=e168]: "finally found jeans with actual PERSONALITY. the studs are everything. worth every single penny #SecretsOutJeans #EdgyStyle"
+          - generic [ref=e169]: 4 days ago
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - img "Brooklyn S." [ref=e172]
+            - generic [ref=e173]:
+              - generic [ref=e174]: Brooklyn S.
+              - generic [ref=e175]:
+                - img [ref=e176]
+                - generic [ref=e178]: Verified on Tiktok
+            - generic [ref=e179]: ★★★★★
+          - paragraph [ref=e180]: wearing these to my concert tmrw and i already know im gonna get so many compliments. the black denim is so clean and the hardware is perfection 🔥
+          - generic [ref=e181]: 1 day ago
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - img "Samantha P." [ref=e184]
+            - generic [ref=e185]:
+              - generic [ref=e186]: Samantha P.
+              - generic [ref=e187]:
+                - img [ref=e188]
+                - generic [ref=e190]: Verified on Instagram
+            - generic [ref=e191]: ★★★★★
+          - paragraph [ref=e192]: Okay so I was skeptical ordering jeans online because sizing is always a gamble but WOW. These fit like they were custom made for me. The mid-rise is perfect - not too high, not too low. And can we talk about how the studs catch the light? I wore these to a friend's bday party and literally got asked for the link 8 times. Worth. Every. Cent.
+          - generic [ref=e193]: 5 days ago
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - img "Chloe M." [ref=e196]
+            - generic [ref=e197]:
+              - generic [ref=e198]: Chloe M.
+              - generic [ref=e199]:
+                - img [ref=e200]
+                - generic [ref=e202]: Verified on Facebook
+            - generic [ref=e203]: ★★★★★
+          - paragraph [ref=e204]: My daughter showed me these on TikTok and I ordered a pair for myself! I'm 42 and still love edgy fashion. These jeans are so well-made - the denim is thick and high quality, the studs are securely attached. They make me feel young and stylish again. Highly recommend for any age!
+          - generic [ref=e205]: 1 week ago
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - img "Taylor H." [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]: Taylor H.
+              - generic [ref=e211]:
+                - img [ref=e212]
+                - generic [ref=e214]: Verified on Tiktok
+            - generic [ref=e215]: ★★★★★
+          - paragraph [ref=e216]: the way i RAN to order these after seeing them on my fyp 3 times in one day lmaooo best impulse buy EVER 🖤✨
+          - generic [ref=e217]: 3 days ago
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - img "Alexis W." [ref=e220]
+            - generic [ref=e221]:
+              - generic [ref=e222]: Alexis W.
+              - generic [ref=e223]:
+                - img [ref=e224]
+                - generic [ref=e229]: Verified on Google
+            - generic [ref=e230]: ★★★★★
+          - paragraph [ref=e231]: Excellent quality jeans. The denim is substantial without being stiff. Studs and eyelets are well-crafted and don't feel cheap. Fit is true to size. Shipped quickly. Would definitely purchase again.
+          - generic [ref=e232]: 6 days ago
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - img "Morgan B." [ref=e235]
+            - generic [ref=e236]:
+              - generic [ref=e237]: Morgan B.
+              - generic [ref=e238]:
+                - text: undefined
+                - generic [ref=e239]: Verified on Twitter
+            - generic [ref=e240]: ★★★★★
+          - paragraph [ref=e241]: "POV: you found jeans that actually make your outfit go from a 6 to a 10. these are those jeans. #OOTD #JeansWithAttitude"
+          - generic [ref=e242]: 2 days ago
+      - button "Load More Reviews" [ref=e244] [cursor=pointer]
+    - generic [ref=e245]:
+      - heading "Don't Miss Out" [level=2] [ref=e246]
+      - paragraph [ref=e247]: These jeans sold out 2x already. Get yours before they're gone again.
+      - button "Get Yours Now" [ref=e248] [cursor=pointer]
+```

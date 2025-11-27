@@ -72,10 +72,13 @@ body{font-family:var(--font-body);color:#1a1a1a;line-height:1.6;background:#fff;
 .fade-in{opacity:0;transform:translateY(20px);transition:opacity 0.6s ease,transform 0.6s ease}
 .fade-in.visible{opacity:1;transform:translateY(0)}
 
-/* Testimonial Styles */
-.testimonial-card{background:#fff;border-radius:16px;padding:24px;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #f0f0f0}
+/* Testimonial Styles - Full Image Reviews */
+.testimonial-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.08);border:1px solid #f0f0f0;transition:transform 0.3s ease,box-shadow 0.3s ease}
+.testimonial-card:hover{transform:translateY(-4px);box-shadow:0 8px 30px rgba(0,0,0,0.12)}
+.testimonial-image{width:100%;height:280px;object-fit:cover;background:#f8f8f8}
+.testimonial-content{padding:24px}
 .testimonial-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.testimonial-avatar{width:48px;height:48px;border-radius:50%;object-fit:cover}
+.testimonial-avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #f0f0f0}
 .testimonial-info{flex:1}
 .testimonial-name{font-weight:600;font-size:14px;margin-bottom:2px}
 .testimonial-platform{display:flex;align-items:center;gap:6px;color:#666;font-size:12px}
@@ -83,6 +86,21 @@ body{font-family:var(--font-body);color:#1a1a1a;line-height:1.6;background:#fff;
 .testimonial-stars{color:#ffc107;font-size:14px;letter-spacing:2px}
 .testimonial-text{font-size:15px;line-height:1.6;color:#333}
 .testimonial-date{color:#999;font-size:12px;margin-top:12px}
+
+/* Accordion Styles */
+.accordion-item{background:#fff;border-radius:16px;margin-bottom:16px;box-shadow:0 2px 12px rgba(0,0,0,0.06);overflow:hidden;border:1px solid #f0f0f0}
+.accordion-header{display:flex;align-items:center;justify-content:space-between;padding:24px;cursor:pointer;transition:background 0.3s ease}
+.accordion-header:hover{background:#f8f9fa}
+.accordion-header-content{display:flex;align-items:center;gap:16px}
+.accordion-icon{width:48px;height:48px;background:linear-gradient(135deg,#1a1a1a 0%,#333 100%);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.accordion-icon svg{width:24px;height:24px;stroke:#fff;stroke-width:1.5;fill:none}
+.accordion-title{font-weight:600;font-size:18px;color:#1a1a1a}
+.accordion-chevron{width:24px;height:24px;transition:transform 0.3s ease}
+.accordion-chevron svg{width:24px;height:24px;stroke:#999;stroke-width:2;fill:none}
+.accordion-item.open .accordion-chevron{transform:rotate(180deg)}
+.accordion-body{max-height:0;overflow:hidden;transition:max-height 0.4s ease}
+.accordion-item.open .accordion-body{max-height:500px}
+.accordion-body-content{padding:0 24px 24px;color:#666;line-height:1.8;font-size:15px}
 
 /* Urgency Elements */
 .live-activity {
@@ -668,21 +686,85 @@ function loadRemainingContent() {
       </div>
     </div>
 
-    <!-- Why Choose Section -->
-    <div class="fade-in" style="padding:60px 20px;max-width:1200px;margin:0 auto">
-      <h2 style="text-align:center;font-size:28px;font-weight:700;margin-bottom:40px">Why Everyone's Obsessed</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:20px">
-        ${[
-          { icon: '', title: 'Edgy Hardware', desc: 'Distinctive studs and eyelets that make you stand out' },
-          { icon: '', title: 'Premium Denim', desc: 'Thick black denim that holds its shape and looks expensive' },
-          { icon: '', title: 'Versatile Edge', desc: 'Dress up or down - rock them anywhere with attitude' }
-        ].map(f => `
-          <div style="text-align:center;padding:30px">
-            <div style="font-size:48px;margin-bottom:20px">${f.icon}</div>
-            <h3 style="margin-bottom:15px;font-weight:600">${f.title}</h3>
-            <p style="color:#666;font-size:14px;line-height:1.6">${f.desc}</p>
+    <!-- Why Choose Section - Accordion with Premium SVGs -->
+    <div class="fade-in" style="padding:60px 20px;max-width:800px;margin:0 auto">
+      <h2 style="text-align:center;font-family:var(--font-heading);font-size:32px;font-weight:600;margin-bottom:16px">Why Everyone's Obsessed</h2>
+      <p style="text-align:center;color:#666;margin-bottom:40px">Click to learn what makes these jeans special</p>
+
+      <div class="accordion-item open">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <div class="accordion-header-content">
+            <div class="accordion-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            </div>
+            <span class="accordion-title">Edgy Hardware That Turns Heads</span>
           </div>
-        `).join('')}
+          <div class="accordion-chevron">
+            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-body-content">
+            <p>Our signature studs and eyelets aren't just decoration – they're a statement. Hand-placed metal hardware catches the light and commands attention. Each piece is securely fastened for durability, so you can rock the edge without worry. These aren't your basic jeans – they're conversation starters.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <div class="accordion-header-content">
+            <div class="accordion-icon">
+              <svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            </div>
+            <span class="accordion-title">Premium Denim That Lasts</span>
+          </div>
+          <div class="accordion-chevron">
+            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-body-content">
+            <p>We source only the highest quality black denim – thick enough to hold its structure all day, soft enough for all-day comfort. The deep black color is fade-resistant, maintaining its rich tone wash after wash. This is investment denim that gets better with age, not cheaper alternatives that fall apart.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <div class="accordion-header-content">
+            <div class="accordion-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+            <span class="accordion-title">Flattering Wide-Leg Silhouette</span>
+          </div>
+          <div class="accordion-chevron">
+            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-body-content">
+            <p>The wide-leg cut is universally flattering, elongating your legs and creating a balanced silhouette. Our mid-rise fit sits comfortably at the waist – high enough to be trendy, low enough to be wearable. Whether you're 5'2" or 5'10", these jeans stack beautifully and move with your body.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <div class="accordion-header-content">
+            <div class="accordion-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+            </div>
+            <span class="accordion-title">Styled by Real Customers</span>
+          </div>
+          <div class="accordion-chevron">
+            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-body-content">
+            <p>Over 10,000 customers have made these jeans their own. They've been worn to concerts, dates, office days, and everything in between. Check out the reviews below – real people showing how versatile edge can be. From crop tops to blazers, these jeans adapt to your style.</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -725,21 +807,39 @@ function loadRemainingContent() {
 function renderTestimonials(count) {
   return testimonials.slice(0, count).map(t => `
     <div class="testimonial-card">
-      <div class="testimonial-header">
-        <img src="./images/testimonials/testimonial-${String(t.img).padStart(2, '0')}.jpeg" alt="${t.name}" class="testimonial-avatar" loading="lazy">
-        <div class="testimonial-info">
-          <div class="testimonial-name">${t.name}</div>
-          <div class="testimonial-platform" style="color:${platformColors[t.platform]}">
-            ${platformSVGs[t.platform]}
-            <span>Verified on ${t.platform.charAt(0).toUpperCase() + t.platform.slice(1)}</span>
+      <img src="./images/testimonials/testimonial-${String(t.img).padStart(2, '0')}.jpeg" alt="Customer wearing Secrets Out Jeans" class="testimonial-image" loading="lazy">
+      <div class="testimonial-content">
+        <div class="testimonial-header">
+          <div class="testimonial-info">
+            <div class="testimonial-name">${t.name}</div>
+            <div class="testimonial-platform" style="color:${platformColors[t.platform]}">
+              ${platformSVGs[t.platform]}
+              <span>Verified on ${t.platform.charAt(0).toUpperCase() + t.platform.slice(1)}</span>
+            </div>
           </div>
+          <div class="testimonial-stars">${'★'.repeat(t.rating)}${'☆'.repeat(5-t.rating)}</div>
         </div>
-        <div class="testimonial-stars">${'★'.repeat(t.rating)}${'☆'.repeat(5-t.rating)}</div>
+        <p class="testimonial-text">${t.text}</p>
+        <div class="testimonial-date">${t.date}</div>
       </div>
-      <p class="testimonial-text">${t.text}</p>
-      <div class="testimonial-date">${t.date}</div>
     </div>
   `).join('');
+}
+
+// Accordion Toggle Function
+function toggleAccordion(header) {
+  const item = header.parentElement;
+  const wasOpen = item.classList.contains('open');
+
+  // Close all accordions
+  document.querySelectorAll('.accordion-item').forEach(acc => {
+    acc.classList.remove('open');
+  });
+
+  // Open clicked one if it was closed
+  if (!wasOpen) {
+    item.classList.add('open');
+  }
 }
 
 let reviewsLoaded = 10;
@@ -753,19 +853,21 @@ function loadMoreReviews() {
     card.style.opacity = '0';
     card.style.transform = 'translateY(20px)';
     card.innerHTML = `
-      <div class="testimonial-header">
-        <img src="./images/testimonials/testimonial-${String(t.img).padStart(2, '0')}.jpeg" alt="${t.name}" class="testimonial-avatar" loading="lazy">
-        <div class="testimonial-info">
-          <div class="testimonial-name">${t.name}</div>
-          <div class="testimonial-platform" style="color:${platformColors[t.platform]}">
-            ${platformSVGs[t.platform]}
-            <span>Verified on ${t.platform.charAt(0).toUpperCase() + t.platform.slice(1)}</span>
+      <img src="./images/testimonials/testimonial-${String(t.img).padStart(2, '0')}.jpeg" alt="Customer wearing Secrets Out Jeans" class="testimonial-image" loading="lazy">
+      <div class="testimonial-content">
+        <div class="testimonial-header">
+          <div class="testimonial-info">
+            <div class="testimonial-name">${t.name}</div>
+            <div class="testimonial-platform" style="color:${platformColors[t.platform]}">
+              ${platformSVGs[t.platform]}
+              <span>Verified on ${t.platform.charAt(0).toUpperCase() + t.platform.slice(1)}</span>
+            </div>
           </div>
+          <div class="testimonial-stars">${'★'.repeat(t.rating)}${'☆'.repeat(5-t.rating)}</div>
         </div>
-        <div class="testimonial-stars">${'★'.repeat(t.rating)}${'☆'.repeat(5-t.rating)}</div>
+        <p class="testimonial-text">${t.text}</p>
+        <div class="testimonial-date">${t.date}</div>
       </div>
-      <p class="testimonial-text">${t.text}</p>
-      <div class="testimonial-date">${t.date}</div>
     `;
     grid.appendChild(card);
 
