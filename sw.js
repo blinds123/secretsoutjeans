@@ -1,10 +1,10 @@
 // Advanced Service Worker for Maximum Performance
 // Implements aggressive caching strategies for sub-300ms performance
 
-const CACHE_NAME = 'auralo-v1.0.1';
-const STATIC_CACHE = 'auralo-static-v1.0.1';
-const DYNAMIC_CACHE = 'auralo-dynamic-v1.0.1';
-const IMAGE_CACHE = 'auralo-images-v1.0.1';
+const CACHE_NAME = 'secretjeans-v2.0.0';
+const STATIC_CACHE = 'secretjeans-static-v2.0.0';
+const DYNAMIC_CACHE = 'secretjeans-dynamic-v2.0.0';
+const IMAGE_CACHE = 'secretjeans-images-v2.0.0';
 
 // Critical assets to cache immediately
 const CRITICAL_ASSETS = [

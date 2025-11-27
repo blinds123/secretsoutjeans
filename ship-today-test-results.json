@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-11-27T08:58:32.177Z",
+  "url": "https://secrets-out-jeans-2024.netlify.app",
+  "tests": [
+    {
+      "step": "Page Load",
+      "status": "PASS",
+      "details": "Site loaded successfully"
+    },
+    {
+      "step": "Size Selection",
+      "status": "PASS",
+      "details": "Selected size: XXS"
+    },
+    {
+      "step": "Button Click",
+      "status": "PASS",
+      "details": "Primary CTA button clicked: \"GET MINE NOW - $59\n          In Stock: Ships Same-Day (Only 34 Left)\""
+    },
+    {
+      "step": "No Popup Verification",
+      "status": "PASS",
+      "details": "No order bump popup appeared"
+    },
+    {
+      "step": "Redirect Detection",
+      "status": "WARNING",
+      "details": "No redirect detected within timeout period"
+    },
+    {
+      "step": "SimpleSwap Domain",
+      "status": "FAIL",
+      "details": "URL does not contain SimpleSwap domain: https://secrets-out-jeans-2024.netlify.app/"
+    },
+    {
+      "step": "Exchange URL Verification",
+      "status": "WARNING",
+      "details": "URL structure unclear"
+    }
+  ],
+  "finalUrl": "https://secrets-out-jeans-2024.netlify.app/",
+  "summary": {
+    "passed": 4,
+    "failed": 1,
+    "warnings": 2,
+    "total": 7,
+    "overallStatus": "FAIL"
+  }
+}

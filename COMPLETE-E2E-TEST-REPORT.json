@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-11-27T09:01:14.381Z",
+  "url": "https://secrets-out-jeans-2024.netlify.app",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Browser launched",
+      "status": "PASS"
+    },
+    {
+      "step": 2,
+      "action": "Navigate to site",
+      "status": "PASS",
+      "statusCode": 200
+    },
+    {
+      "step": 3,
+      "action": "Verify hero image",
+      "status": "PASS",
+      "imageSrc": "./images/product/product-01.jpeg",
+      "imageWidth": 3994
+    },
+    {
+      "step": 4,
+      "action": "Verify testimonial images",
+      "status": "PASS",
+      "testimonialImages": [
+        {
+          "index": 0,
+          "src": "./images/testimonials/testimonial-01.jpeg",
+          "width": 355,
+          "loaded": true
+        },
+        {
+          "index": 1,
+          "src": "./images/testimonials/testimonial-02.jpeg",
+          "width": 355,
+          "loaded": true
+        },
+        {
+          "index": 2,
+          "src": "./images/testimonials/testimonial-03.jpeg",
+          "width": 355,
+          "loaded": true
+        },
+        {
+          "index": 3,
+          "src": "./images/testimonials/testimonial-04.jpeg",
+          "width": 355,
+          "loaded": true
+        },
+        {
+          "index": 4,
+          "src": "./images/testimonials/testimonial-05.jpeg",
+          "width": 334,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "action": "Click size button",
+      "status": "PASS",
+      "selectedSize": "XS"
+    },
+    {
+      "step": 6,
+      "action": "Click Pre-Order button",
+      "status": "PASS",
+      "buttonText": "GET MINE NOW - $59\n          In Stock: Ships Same-Day (Only 34 Left)"
+    },
+    {
+      "step": 7,
+      "action": "Order bump popup appears",
+      "status": "PASS",
+      "popupPreview": "\n  \n    ×\n    \n      COMPLETE THE SET!\n      Add the Matching Crop Top?\n      The perfect pairing for your Secrets Out Jeans\n    \n    \n      \n        \n          Edgy Black Crop Top\n          \n        "
+    },
+    {
+      "step": 8,
+      "action": "Click No Thanks",
+      "status": "PASS",
+      "buttonText": "No thanks, just the jeans"
+    },
+    {
+      "step": 9,
+      "action": "Redirect to SimpleSwap",
+      "status": "PASS",
+      "finalUrl": "https://simpleswap.io/exchange?id=6s2b92q9bqh8o6n1"
+    },
+    {
+      "step": 10,
+      "action": "Capture SimpleSwap page",
+      "status": "PASS",
+      "exchangeId": "6s2b92q9bqh8o6n1"
+    },
+    {
+      "step": 11,
+      "action": "Verify exchange ID",
+      "status": "PASS",
+      "exchangeId": "6s2b92q9bqh8o6n1",
+      "idLength": 16
+    }
+  ],
+  "screenshots": [
+    {
+      "step": 2,
+      "file": "01-initial-page-load.png",
+      "description": "Initial page load"
+    },
+    {
+      "step": 3,
+      "file": "02-hero-image-verified.png",
+      "description": "Hero product image verified"
+    },
+    {
+      "step": 4,
+      "file": "03-testimonials-verified.png",
+      "description": "Testimonial images section"
+    },
+    {
+      "step": 5,
+      "file": "04-size-selected.png",
+      "description": "Size \"XS\" selected"
+    },
+    {
+      "step": 7,
+      "file": "05-order-bump-popup.png",
+      "description": "Order bump popup displayed"
+    },
+    {
+      "step": 10,
+      "file": "06-simpleswap-page.png",
+      "description": "SimpleSwap exchange page"
+    }
+  ],
+  "finalStatus": "PASS"
+}

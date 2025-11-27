@@ -1,0 +1,241 @@
+{
+  "testDate": "2025-11-27T08:57:45.678Z",
+  "siteUrl": "https://secrets-out-jeans-2024.netlify.app",
+  "summary": {
+    "totalRequests": 15,
+    "successful": 17,
+    "failed": 0,
+    "totalImgElements": 16,
+    "visuallyBroken": 0
+  },
+  "allRequests": [
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/product/product-01.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "547727"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/product/product-03.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "835922"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/product/product-02.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "1544055"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/product/product-04.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "858964"
+    },
+    {
+      "url": "https://i.pravatar.cc/80?img=1",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "2744"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-03.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "321933"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-02.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "304220"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-01.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "301416"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-04.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "308060"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-06.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "292320"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-05.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "302572"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-07.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "289552"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-08.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "267809"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-09.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "243236"
+    },
+    {
+      "url": "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-10.jpeg",
+      "status": 200,
+      "statusText": "",
+      "success": true,
+      "contentType": "image/jpeg",
+      "size": "317657"
+    }
+  ],
+  "failedRequests": [],
+  "brokenImages": [],
+  "expectedImages": [
+    {
+      "path": "./images/product/product-01.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/product/product-02.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/product/product-03.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/product/product-04.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/product/product-05.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/product/product-06.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-01.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-02.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-03.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-04.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-05.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-06.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-07.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-08.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-09.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-10.jpeg",
+      "found": true
+    },
+    {
+      "path": "./images/testimonials/testimonial-11.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-12.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-13.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-14.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-15.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-16.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-17.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-18.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-19.jpeg",
+      "found": false
+    },
+    {
+      "path": "./images/testimonials/testimonial-20.jpeg",
+      "found": false
+    }
+  ]
+}
