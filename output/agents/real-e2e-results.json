@@ -5,17 +5,17 @@
   ],
   "size_selection": true,
   "popup_appeared": true,
-  "redirect_to_simpleswap": false,
-  "simpleswap_url": "https://secrets-out-jeans-2024.netlify.app/",
+  "redirect_to_simpleswap": true,
+  "simpleswap_url": "https://simpleswap.io/exchange?id=48uew0ulwi0y65zr",
   "console_errors": [
-    "Access to fetch at 'https://simpleswap-automation-1.onrender.com/buy-now' from origin 'https://secrets-out-jeans-2024.netlify.app' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-    "Failed to load resource: net::ERR_FAILED",
-    "[POOL] Error: TypeError: Failed to fetch\n    at getExchangeFromPool (https://secrets-out-jeans-2024.netlify.app/:459:28)\n    at processOrder (https://secrets-out-jeans-2024.netlify.app/:498:9)\n    at declineOrderBump (https://secrets-out-jeans-2024.netlify.app/:558:3)\n    at HTMLButtonElement.onclick (https://secrets-out-jeans-2024.netlify.app/:251:208)"
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "Failed to load resource: the server responded with a status of 401 ()"
   ],
   "screenshots": [
     "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/e2e-screenshots/01-page-loaded.png",
     "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/e2e-screenshots/02-size-selected.png",
     "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/e2e-screenshots/03-checkout-popup.png",
-    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/e2e-screenshots/04-redirect-failed.png"
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/e2e-screenshots/04-simpleswap-success.png"
   ]
 }
