@@ -25,3 +25,7 @@ PHASE_5=complete
 TESTIMONIALS_COUNT=30
 PHASE_5.5=complete
 PREMIUM_DESIGN=complete
+PHASE_8=complete
+GITHUB_URL=https://github.com/blinds123/secretsoutjeans
+PHASE_9=complete
+SITE_URL=https://secrets-out-jeans-2024.netlify.app

@@ -1,0 +1,84 @@
+{
+  "page_load": {
+    "success": true,
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "time_ms": 2376
+  },
+  "mobile": {
+    "horizontal_scroll": false,
+    "viewport_ok": true,
+    "errors": []
+  },
+  "size_selection": {
+    "success": true,
+    "errors": []
+  },
+  "checkout_flow": {
+    "popup_appeared": true,
+    "redirect_worked": false,
+    "redirect_url": "https://secrets-out-jeans-2024.netlify.app/",
+    "cors_error": false,
+    "errors": [
+      "No redirect occurred"
+    ]
+  },
+  "preorder_flow": {
+    "popup_appeared": true,
+    "order_bump_accepted": false,
+    "redirect_worked": false,
+    "redirect_url": "https://secrets-out-jeans-2024.netlify.app/",
+    "errors": []
+  },
+  "visual": {
+    "broken_images": [
+      "https://secrets-out-jeans-2024.netlify.app/images/product/product-01.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/product/product-01.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/product/product-02.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/product/product-03.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/product/product-04.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-01.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-02.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-03.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-04.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-05.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-06.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-07.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-08.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-09.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/images/testimonials/testimonial-10.jpeg",
+      "https://secrets-out-jeans-2024.netlify.app/"
+    ],
+    "urgency_elements": {
+      "live_viewers": true,
+      "stock_warning": true
+    },
+    "trust_badges": true
+  },
+  "screenshots": [
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/screenshots/desktop-full-page.png",
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/screenshots/mobile-full-page.png",
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/screenshots/size-selected.png",
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/screenshots/checkout-popup.png",
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/screenshots/preorder-popup.png",
+    "/Users/nelsonchan/Downloads/secretsoutjeans/secretjeans/output/tests/screenshots/purchase-toast.png"
+  ],
+  "overall_status": "FIXES_NEEDED"
+}

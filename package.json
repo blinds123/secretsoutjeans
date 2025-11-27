@@ -15,7 +15,8 @@
     "setup": "npm install && npx playwright install chromium"
   },
   "dependencies": {
-    "playwright": "^1.55.1"
+    "@playwright/test": "^1.57.0",
+    "playwright": "^1.57.0"
   },
   "keywords": [
     "performance",
